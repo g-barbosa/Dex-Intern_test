@@ -1,11 +1,11 @@
 <ul>
 	<h1>Requirements:</h1>
-	<li>To run this project, you need have 'node.js' installed on your computer. You can download <a href="https://nodejs.org/en/">here</a>.</li>
+	<li>To run this project, you need have 'node.js' installed on your computer. You can download <a href="https://nodejs.org/en/">here</a></li>
 
 	<li>You must also install some package manager, like npm or yarn.
-	For install npm, you can run this command on your terminal:
+	For install npm, you can run this command on your terminal:</li>
 	
-	<h4> sudo apt-get install npm</h4></li>
+	<h4> sudo apt-get install npm</h4>
 
 	<li>To install all dependencies on this project, you need to type this command on your project folder:</li>
 
