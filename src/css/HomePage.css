@@ -1,0 +1,105 @@
+.bgh{
+    font-family: "Open Sans";
+    font-weight:600;
+    width: 100%;
+    background-color: #F9F9F9;
+    background-image: url("../assets/bg.jpg");
+    background-size: 60%;
+    background-position: 100% 100px;
+    background-repeat: no-repeat;
+}
+
+.box {
+margin-right: 30px;
+margin-left: 150px;
+margin-top: 50px;
+color:navy;
+background: white;
+text-align: justify;
+width: 400px;
+box-shadow: 0px 0px 0.5px 0px #000;
+}
+
+.checkBox{
+  margin-left: 21px;
+  margin-top: 10px;
+}
+
+.orangeForm{
+  background-image: url('../assets/logo.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#email, #password{
+    margin: auto;
+    max-width: 90%;
+    padding: 5% 5%;
+    font-family: "Open Sans";
+    display: block;
+    border: 1px solid #4A4A4A;
+    box-sizing: border-box; 
+}
+
+label{
+    margin: auto;
+    margin-left: 21px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.p{
+  margin: auto;
+  margin-left: 21px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#email{
+    background-image: url("../assets/mail.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 25px;
+}
+
+#password{
+    background-image: url("../assets/lock.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 25px;
+}
+
+.sign-in{
+    border: none;
+    background-image: linear-gradient(134.72deg, #AE23A9 0%, #DC4E1B 100%);
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form{
+    padding-top: 10%;
+    padding-bottom: 5%; 
+}
+
+.btn-primary{
+    margin: auto;
+    max-width: 90%;
+    padding: 2%;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bg-home{
+    margin-top: 30%;
+    max-width: 100%;
+}
