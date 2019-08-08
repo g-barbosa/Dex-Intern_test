@@ -4,7 +4,7 @@ import '../../css/images.css'
 export default class Images extends Component {
 	render(){
 		return (
-        	<img  src={this.props.src} alt={this.props.alt}/>
+        	<img src={this.props.src} alt={this.props.alt} className="col-md-4"/>
 		)
 	}
 }
