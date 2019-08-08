@@ -24,8 +24,11 @@ export default class Foods extends Component {
 		.then(response => response.json())
 		.then(response => {
 			let img = []
+
 			response.result.forEach(i => {
+
 				img.push({name: i.name, link: i.link})
+				
 			})
 			this.setState({
 				img: img
@@ -45,7 +48,8 @@ export default class Foods extends Component {
 					{
 						this.state.img.map( i => {
 							return (
-								<Images src={i.link}/>
+								
+								<Images src={i.link} alt={i.count}/>
 							)
 						})
 					}

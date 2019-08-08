@@ -7,8 +7,8 @@ export default class Nav extends Component {
 	render(){
 		return(
 			<div className="bg-white fixed-top shadow">
-				<div className="container">
-					<nav className="navbar navbar-expand-lg">
+				<div className='navSpace'>
+					<nav className="navbar navbar-expand-sm">
 						<img className='logoNav' src={logo}/>
 						<div className="collapse navbar-collapse">
 							<ul className="nav navbar-nav ml-auto">
